@@ -123,7 +123,7 @@ def load_data(city, month, day):
     return df
 
 def time_stats(df):
-    """Displays statistics on the most frequent times of travel."""
+    """Displays statistics on the most common times of travel."""
 
     print('\nCalculating The Most Frequent Times of Travel...\n')
     start_time = time.time()
@@ -183,7 +183,7 @@ def station_stats(df):
 
 
 def trip_duration_stats(df):
-    """Displays statistics on the total and average trip duration."""
+    """Displays statistics on the trip duration."""
 
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
@@ -244,7 +244,7 @@ def user_stats(df):
 def raw_data(df):
     """
     Asks user if they want to see 5 lines of raw data.
-    Returns the 5 lines of raw data if user inputs `yes`. Iterate until user response with a `no`
+    Returns the 5 lines of raw data if user inputs `yes`. Iterate until user responds with a `no`.
 
     """
     # set a counter variable
