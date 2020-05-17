@@ -256,9 +256,9 @@ def raw_data(df):
         view_data = input('\nWould you like to see 5 lines of raw data? Enter Y or N: ')
         # set counter for invalid inputs
         x = 1
-        # ask user for valid inputs 5 times, else exit out of the function
+        # ask user for valid inputs 3 times, else exit out of the function
         while view_data.upper() not in ('Y','N'):
-            if x < 5:
+            if x < 3:
                 print('\nThat was an invalid input')
                 view_data = input('\nWould you like to see 5 lines of raw data? Enter Y or N: ')
                 x = x + 1
